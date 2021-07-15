@@ -1,11 +1,29 @@
 {
   "name": "07-webserver-http-express-hbs",
   "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "@ciucol",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ciucol/Webserver-HTTP-EXPRESS-HBS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ciucol/Webserver-HTTP-EXPRESS-HBS/issues"
+  },
+  "homepage": "https://github.com/ciucol/Webserver-HTTP-EXPRESS-HBS#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "standard": "^16.0.3"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/standard/eslintrc.json"
+  }
 }
